@@ -1,0 +1,29 @@
+{
+  "name": "helptext",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.14.1"
+  },
+  "description": "API for text summarizing and paraphrasing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && yarn start",
+    "server": "node index",
+    "dev": "concurrently \"yarn run server\" \"yarn run client\"",
+    "heroku-postbuild": "cd client && yarn install && yarn run build"
+  },
+  "keywords": [
+    "summarize",
+    "paraphraze",
+    "backend",
+    "api"
+  ],
+  "author": "elias",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
