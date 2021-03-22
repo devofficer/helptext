@@ -179,10 +179,7 @@ function Layout1(props) {
 								{config.toolbar.display &&
 									config.toolbar.position === 'below' &&
 									config.toolbar.style === 'fixed' && 
-									<ToolbarLayout1 
-										mode={mode}
-										onChange={setMode}
-									/>
+									<ToolbarLayout1/>
 								}
 
 								<FuseScrollbars className={classes.content} scrollToTopOnRouteChange>

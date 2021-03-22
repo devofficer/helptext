@@ -46,6 +46,7 @@ function AnalyticsDashboardApp(props) {
 							<div className="widget w-full p-16">
 								<Widget9 
 									mode={state.mode}
+									setMode={state.setMode}
 									strength={state.strength}
 									setStrength={state.setStrength}
 								/>

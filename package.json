@@ -1,9 +1,6 @@
 {
   "name": "helptext",
   "version": "1.0.0",
-  "engines": {
-    "node": "12.14.1"
-  },
   "description": "API for text summarizing and paraphrasing",
   "main": "index.js",
   "scripts": {
