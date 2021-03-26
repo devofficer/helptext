@@ -105,7 +105,7 @@ const navigationConfig = [
 				translate: 'MAIL',
 				type: 'item',
 				icon: 'email',
-				url: '/apps/mail',
+				url: '/apps/feedback',
 				badge: {
 					title: 25,
 					bg: '#F44336',

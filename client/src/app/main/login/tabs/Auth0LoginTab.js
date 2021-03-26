@@ -28,10 +28,10 @@ function Auth0LoginTab(props) {
 
 	return (
 		<div className="w-full">
-			<Button className="w-full my-48" color="primary" variant="contained" onClick={showDialog}>
+			<Button className="w-full my-24" color="primary" variant="contained" onClick={showDialog}>
 				Log In with Google
 			</Button>
-			<Button className="w-full my-48" color="primary" variant="contained" onClick={showDialog}>
+			<Button className="w-full my-24" color="primary" variant="contained" onClick={showDialog}>
 				Log In with Facebook
 			</Button>
 		</div>
